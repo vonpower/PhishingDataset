@@ -1,6 +1,7 @@
 
 
-#how to use:
+# how to use:
+``` python
 import dill
 dill_file="vonDataset20180426.dill"
 with open(dill_file, 'rb') as f:
@@ -13,3 +14,4 @@ print("\t\t\tFeature Shapes:")
 print("Train set: \t\t{}".format(train_x.shape), 
       "\nValidation set: \t{}".format(val_x.shape),
       "\nTest set: \t\t{}".format(test_x.shape))
+```
