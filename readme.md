@@ -9,6 +9,7 @@ also considered the URLs in the Common Crawl database as legitimate. We obtained
 
 ![image](/imgs/table1.png)
 
+
 ## Table 2
 
 ![image](/imgs/table2.png)
