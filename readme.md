@@ -10,7 +10,6 @@ also considered the URLs in the Common Crawl database as legitimate. We obtained
 
 ![image](/imgs/table2.png)
 
-Format: ![Alt Text](url)
 
 # how to use:
 ``` python
