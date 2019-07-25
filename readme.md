@@ -21,8 +21,8 @@ with open(dill_file, 'rb') as f:
         val_x,val_y=pickleData["val_x"],pickleData["val_y"]
         test_x,test_y=pickleData["test_x"],pickleData["test_y"]
         char_to_int=pickleData["char_to_int"]
-print("\t\t\tFeature Shapes:")
-print("Train set: \t\t{}".format(train_x.shape), 
-      "\nValidation set: \t{}".format(val_x.shape),
-      "\nTest set: \t\t{}".format(test_x.shape))
+print("Feature Shapes:\n")
+print("Train set: {}".format(train_x.shape), 
+      " Validation set: {}".format(val_x.shape),
+      " Test set: {}".format(test_x.shape))
 ```
