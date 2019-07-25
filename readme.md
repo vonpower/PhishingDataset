@@ -30,3 +30,7 @@ print("Train set: {}".format(train_x.shape),
       " Validation set: {}".format(val_x.shape),
       " Test set: {}".format(test_x.shape))
 ```
+
+#used in papers:
+1. Visualizing and Interpreting RNN Models in URL-based Phishing Detection
+
