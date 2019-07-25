@@ -5,7 +5,8 @@ also considered the URLs in the Common Crawl database as legitimate. We obtained
 - Table 1 exemplifies five legitimate URLs and five phishing URLs in our dataset. We can see that legitimate and phishing URLs are often very similar as expected by attackers. Table 2 provides the statistics of our dataset. The most common TLDs (top-level domains) are .com and .net in our dataset. TLDs can be categorized into gTLDs (generic TLDs) that are maintained by the Internet Assigned Numbers Authority (IANA) for use in the Domain Name Systems of the Internet, and ccTLDs (country code TLDs) that are usually reserved for specific geographic locations.
 
 ! [GitHub Logo](/imgs/table 1.png)
-
+![image](https://github.com/vonpower/PhishingDataset/blob/master/imgs/table 1.png)
+![image](/imgs/table 1.png)
 ! [GitHub Logo](/imgs/table 2.png)
 
 Format: ![Alt Text](url)
