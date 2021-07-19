@@ -31,6 +31,41 @@ print("Train set: {}".format(train_x.shape),
       " Test set: {}".format(test_x.shape))
 ```
 
-#used in papers:
-1. Visualizing and Interpreting RNN Models in URL-based Phishing Detection
+#Citation:
+@inproceedings{10.1145/3381991.3395602,
+author = {Feng, Tao and Yue, Chuan},
+title = {Visualizing and Interpreting RNN Models in URL-Based Phishing Detection},
+year = {2020},
+isbn = {9781450375689},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3381991.3395602},
+doi = {10.1145/3381991.3395602},
+abstract = {Existing studies have demonstrated that using traditional machine learning techniques,
+phishing detection simply based on the features of URLs can be very effective. In
+this paper, we explore the deep learning approach and build four RNN (Recurrent Neural
+Network) models that only use lexical features of URLs for detecting phishing attacks.
+We collect 1.5 million URLs as the dataset and show that our RNN models can achieve
+a higher than 99% detection accuracy without the need of any expert knowledge to manually
+identify the features. However, it is well known that RNNs and other deep learning
+techniques are still largely in black boxes. Understanding the internals of deep learning
+models is important and highly desirable to the improvement and proper application
+of the models. Therefore, in this work, we further develop several unique visualization
+techniques to intensively interpret how RNN models work internally in achieving the
+outstanding phishing detection performance. Especially, we identify and answer six
+important research questions, showing that our four RNN models (1) are complementary
+to each other and can be combined into an ensemble model with even better accuracy,
+(2) can well capture the relevant features that were manually extracted and used in
+the traditional machine learning approach for phishing detection, and (3) can help
+identify useful new features to enhance the accuracy of the traditional machine learning
+approach. Our techniques and experience in this work could be helpful for researchers
+to effectively apply deep learning techniques in addressing other real-world security
+or privacy problems.},
+booktitle = {Proceedings of the 25th ACM Symposium on Access Control Models and Technologies},
+pages = {13–24},
+numpages = {12},
+keywords = {visualization, interpretation, phishing detection, deep learning},
+location = {Barcelona, Spain},
+series = {SACMAT '20}
+}
 
