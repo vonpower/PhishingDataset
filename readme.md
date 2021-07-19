@@ -31,8 +31,8 @@ print("Train set: {}".format(train_x.shape),
       " Test set: {}".format(test_x.shape))
 ```
 
-#Citation:
-@inproceedings{10.1145/3381991.3395602,
+# Citation:
+```@inproceedings{10.1145/3381991.3395602,
 author = {Feng, Tao and Yue, Chuan},
 title = {Visualizing and Interpreting RNN Models in URL-Based Phishing Detection},
 year = {2020},
@@ -47,5 +47,6 @@ numpages = {12},
 keywords = {visualization, interpretation, phishing detection, deep learning},
 location = {Barcelona, Spain},
 series = {SACMAT '20}
-}
+}```
+
 
